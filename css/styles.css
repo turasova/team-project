@@ -1,0 +1,48 @@
+:root {
+    --text-color:#FFFFFF;
+    --acent-color: #FFEB38;
+    --dark-color:#202020;
+    --btn-text-color: #0E0E0E;
+}
+body {
+ font-family: 'Poppins', sans-serif;
+ background-color: var(--dark-color);
+ color: var(--text-color);
+}
+h1,h2,h3,h4,h5,h6,p {
+margin: 0;
+}
+ul,ol {
+padding-left: 0;
+margin: 0;
+list-style-type: none;
+}
+a {
+text-decoration: none;
+color: currentColor;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+img {
+    display: block;
+}
+.header-logo {
+font-size: 24px;
+font-family: Inter, sans-serif;
+font-weight: 600;
+}
+.nav-list-link {
+font-size: 16px;
+letter-spacing: 0.48px;
+}
+.header{
+background-color: var(--dark-color);
+}
+.header-btn {
+background-color: var(--acent-color);
+color: var(--btn-text-color);
+font-size: 16px;
+letter-spacing: 0.48px;
+}
