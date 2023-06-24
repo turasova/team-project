@@ -1,25 +1,32 @@
 :root {
-    --text-color:#FFFFFF;
-    --acent-color: #FFEB38;
-    --dark-color:#202020;
-    --btn-text-color: #0E0E0E;
+    --text-color: #ffffff;
+    --acent-color: #ffeb38;
+    --dark-color: #202020;
+    --btn-text-color: #0e0e0e;
 }
 body {
- font-family: 'Poppins', sans-serif;
- background-color: var(--dark-color);
- color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+    background-color: var(--dark-color);
+    color: var(--text-color);
 }
-h1,h2,h3,h4,h5,h6,p {
-margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
-ul,ol {
-padding-left: 0;
-margin: 0;
-list-style-type: none;
+ul,
+ol {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
 }
 a {
-text-decoration: none;
-color: currentColor;
+    text-decoration: none;
+    color: currentColor;
 }
 button {
     cursor: pointer;
@@ -28,21 +35,61 @@ button {
 img {
     display: block;
 }
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header-logo {
-font-size: 24px;
-font-family: Inter, sans-serif;
-font-weight: 600;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-right: 104px;
 }
 .nav-list-link {
-font-size: 16px;
-letter-spacing: 0.48px;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    display: block;
+    padding: 35px 0;
 }
-.header{
-background-color: var(--dark-color);
+.header {
+    background-color: var(--dark-color);
 }
 .header-btn {
-background-color: var(--acent-color);
-color: var(--btn-text-color);
-font-size: 16px;
-letter-spacing: 0.48px;
+    background-color: var(--acent-color);
+    color: var(--btn-text-color);
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    margin-left: auto;
+    min-width: 128px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.logo-img {
+    margin-right: 6px;
 }

@@ -3,35 +3,63 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="./css/styles.css">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
         <title>Design Agency</title>
     </head>
     <body>
         <!-- Header -->
         <header class="header">
-            <nav>
-                <a class="header-logo" href="./index.html">
-                    <img
-                        src="./images/logo.svg"
-                        alt="logo"
-                        width="50"
-                        height="53"
-                    />
-                    Design Agency
-                </a>
-                <ul class="nav-list">
-                    <li><a class="nav-list-link" href="#hero">Home</a></li>
-                    <li><a class="nav-list-link" href="#about">About Us</a></li>
-                    <li><a class="nav-list-link" href="#services">Services</a></li>
-                    <li><a class="nav-list-link" href="#portfolio">Portfolio</a></li>
-                    <li><a class="nav-list-link" href="#customer">Testimonials</a></li>
-                    <li><a class="nav-list-link" href="">Faqs</a></li>
-                </ul>
-            </nav>
-            <button class="header-btn" type="button">Contact Us</button>
+            <div class="container header-container">
+                <nav class="header-nav">
+                    <a class="header-logo" href="./index.html">
+                        <img
+                            class="logo-img"
+                            src="./images/logo.svg"
+                            alt="logo"
+                            width="50"
+                            height="53"
+                        />
+                        Design Agency
+                    </a>
+                    <ul class="nav-list">
+                        <li class="nav-list-item">
+                            <a class="nav-list-link" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link" href="#services"
+                                >Services</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link" href="#portfolio"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link" href="#customer"
+                                >Testimonials</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link" href="">Faqs</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header-btn" type="button">Contact Us</button>
+            </div>
         </header>
         <!-- Main block -->
         <main>
