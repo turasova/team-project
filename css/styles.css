@@ -3,9 +3,9 @@
     --acent-color: #ffeb38;
     --dark-color: #202020;
     --btn-text-color: #0e0e0e;
-    --customer-text-color:#696969;
-    --customer-title-color:#000000;
-    --customer-text-light-color:#F6F6F6;
+    --customer-text-color: #696969;
+    --customer-title-color: #000000;
+    --customer-text-light-color: #F6F6F6;
 }
 
 body {
@@ -45,6 +45,8 @@ img {
     display: block;
 }
 
+/* Base styles */
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -52,6 +54,10 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+/* Header styles */
 
 .header-logo {
     font-size: 24px;
@@ -107,6 +113,8 @@ img {
     margin-right: 6px;
 }
 
+/* Hero styles */
+
 .hero {
     padding-top: 187px;
     padding-bottom: 190px;
@@ -129,45 +137,54 @@ img {
 
 .hero-description {
     width: 786px;
-   
+
 }
+
+/* Customer styles */
+
 .customer-text-first {
-color: var(--customer-text-light-color);
-text-align: justify;
-font-size: 16px;
-font-weight: 700;
-letter-spacing: 0.48px;
-margin-top: 111px;
-margin-bottom: 19px;
-flex-direction: column;
-text-align: justify;
+    color: var(--customer-text-light-color);
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    margin-top: 111px;
+    margin-bottom: 19px;
+    flex-direction: column;
+    text-align: justify;
 }
-.customer-title{
+
+.customer-title {
     font-size: 48px;
     font-weight: 700;
     line-height: 125.5%;
     letter-spacing: 1.44px;
     margin-bottom: 113px;
 }
+
 .customer-title-acent {
     color: var(--acent-color);
 }
+
 .feedback-p {
     color: var(--acent-color);
 }
+
 .customer-item {
     min-width: 370px;
     border-radius: 5px;
     background: var(--text-color);
     margin-bottom: 130px;
 }
+
 .customer-list {
     display: flex;
     gap: 29px;
     text-align: center;
-   
+
 
 }
+
 .customer-title-second {
     color: var(--customer-title-color);
     text-align: center;
@@ -177,6 +194,7 @@ text-align: justify;
     padding-top: 69px;
     margin-bottom: 20px;
 }
+
 .customer-text-second {
     color: var(--customer-text-color);
     text-align: center;
@@ -185,5 +203,9 @@ text-align: justify;
     padding-bottom: 19px;
     min-width: 334px;
     padding-left: 19px;
-    padding-right: 19px;   
+    padding-right: 19px;
 }
+
+/* Contact Us styles */
+
+/* Footer styles */
