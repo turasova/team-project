@@ -244,15 +244,23 @@ img {
 }
 
 .markcont-icons {
+}
+
+.mark-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82px;
+  height: 82px;
+  background-color: var(--acent-color);
+  border-radius: 50%;
   margin-bottom: 13px;
+  display: inline-flex;
 }
 
 .mark-icons {
-  width: 82px;
-  height: 82px;
-  background-color: #ffeb38;
-  border-radius: 50%;
-  border: 3px solid #fff;
+  fill: none;
+  stroke: #0e0e0e;
 }
 
 /* Customer styles */
