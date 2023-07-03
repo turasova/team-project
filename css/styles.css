@@ -159,9 +159,6 @@ img {
   font-size: 48px;
   font-weight: 700;
   line-height: 125.5%;
-
-  margin-bottom: 23px;
-  margin-right: 195px;
 }
 
 .yellow {
@@ -348,7 +345,6 @@ img {
   flex-shrink: 0;
   margin-top: 25px;
   margin-bottom: 12px;
-
 }
 
 .contact-us-btn {
