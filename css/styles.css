@@ -256,14 +256,22 @@ img {
 
 .customer-text-first {
   color: var(--customer-text-light-color);
-  text-align: justify;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.48px;
   margin-top: 111px;
   margin-bottom: 19px;
-  flex-direction: column;
-  text-align: justify;
+  display: flex;
+  align-items: center;  
+  justify-content:first baseline;
+  
+}
+.customer-text-first::before {
+width: 143px;
+height: 2px;
+background: #D8D8D8;
+content: "";
+margin-right: 12px;
 }
 
 .customer-title {
@@ -287,12 +295,37 @@ img {
   border-radius: 5px;
   background: var(--text-color);
   margin-bottom: 130px;
+ 
+}
+.vaadin-icons {
+ fill:#000000;
+}
+.vaadin-container {
+  width: 99px;
+  height: 99px;
+  border-radius: 98.763px;
+border: 3px solid #FFF;
+background: #FFEB38;
+padding: 25px 25px;
+display: flex;
+position: absolute;
+top:-41px;
+left: 136px;
+}
+.second-icon {
+  top:-41px;
+  left: 535px;
+}
+.third-icon {
+  top:-41px;
+  left: 935px;
 }
 
 .customer-list {
   display: flex;
   gap: 29px;
   text-align: center;
+  position: relative;
 }
 
 .customer-title-second {
@@ -301,8 +334,9 @@ img {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.48px;
-  padding-top: 69px;
   margin-bottom: 20px;
+  padding-top: 69px;
+  margin-top: 11px;
 }
 
 .customer-text-second {
