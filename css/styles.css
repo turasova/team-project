@@ -214,6 +214,79 @@ img {
 
 /**
   |============================
+  | Section 2 About CanvasLAncer Victoria
+  |============================
+*/
+.about-canvas-container {
+  padding-top: 112px;
+  padding-right: 154px;
+  padding-bottom: 58px;
+  padding-left: 135px;
+  display: flex;
+  background-color: #0e0e0e;
+  margin: 0 auto;
+  gap: 114px;
+  width: 1440px;
+}
+
+.about-canvas-images {
+  display: flex;
+  justify-content: flex-start;
+  width: 503px;
+}
+
+.about-canvas-description {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 534px;
+}
+
+.subtitle-canvas {
+  color: var(--customer-text-light-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 155%;
+  letter-spacing: 0.48px;
+  margin-bottom: 19px;
+}
+
+.second-title.canvas {
+  margin-bottom: 31px;;
+}
+
+.about-canvas-text {
+  color: #696969;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.48px;
+
+}
+
+.about-canvas-text.first {
+  margin-bottom: 25px;
+}
+
+.about-canvas-text.second {
+  margin-bottom: 35px;
+}
+
+.about-canvas-btn {
+  background-color: var(--acent-color);
+  color: var(--btn-text-color);
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  margin-right: auto;
+  min-width: 128px;
+  height: 44px;
+  border-radius: 5px;
+  border: none;
+}
+
+/**
+  |============================
   | Mark section main three
   |============================
 */
