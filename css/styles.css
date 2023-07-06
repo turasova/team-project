@@ -233,6 +233,22 @@ img {
   display: flex;
   justify-content: flex-start;
   width: 503px;
+  position: relative;
+}
+
+.canvas-image-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.canvas-image-2 {
+  position: absolute;
+  top: 191px;
+  left: 198px;
+  z-index: 2;
+
 }
 
 .about-canvas-description {
@@ -278,9 +294,12 @@ img {
   color: var(--btn-text-color);
   font-size: 16px;
   letter-spacing: 0.48px;
-  margin-right: auto;
-  min-width: 128px;
-  height: 44px;
+  width: 181px;
+  height: 48px;
+  padding-top: 12px;
+  padding-right: 62px;
+  padding-bottom: 12px;
+  padding-left: 61px; 
   border-radius: 5px;
   border: none;
 }
