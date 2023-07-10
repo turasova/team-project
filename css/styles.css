@@ -449,8 +449,6 @@ img {
   text-align: center;
 }
 
-.prtfolio-filtr {}
-
 .portfolio-filtr-list {
   display: flex;
   justify-content: center;
@@ -478,7 +476,6 @@ img {
 .portfolio-btn:hover,
 .portfolio-btn:hover {
   background: #FFEB38;
-  font-weight: 700;
 }
 
 .porfolio-img-list {
@@ -488,7 +485,6 @@ img {
   margin-top: 50px;
 }
 
-.portfolio-img-item {}
 
 /* Customer styles */
 
