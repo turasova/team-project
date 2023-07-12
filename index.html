@@ -244,7 +244,18 @@
               Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu enim id gravida pulvinar. Tristique consectetur mi curabitur congue
               enim dignissim
             </p>
-            <button class="contact-us-btn" type="button">Submit Message</button>
+            <form class="contact-us-form" name="contact_form" autocomplete="on" novalidate>
+              <div class="contact-us-form-container">
+                <label class="contact-form-label" for="user-name"></label>
+                <input class="contact-form-input" type="text" name="user-name" id="user-name" placeholder="Your Name" />
+                <label class="contact-form-label" for="user-email"></label>
+                <input class="contact-form-input" type="email" name="user-email" id="user-email" placeholder="Your Email" />
+                <label class="contact-form-label" for="user-message"></label>
+                <textarea class="contact-form-textarea" name="user-message" id="user-message" rows="4" placeholder="Your Message"></textarea>
+
+                <button class="contact-us-btn" type="submit">Submit Message</button>
+              </div>
+            </form>
           </div>
           <img class="contact-us-img" src="./images/contact-us-img.png" alt="Contact Us photo" />
         </div>
