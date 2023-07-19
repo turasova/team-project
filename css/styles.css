@@ -359,6 +359,7 @@ img {
   height: 44px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 .mark-container {
@@ -377,11 +378,8 @@ img {
 .mark-item {
   border-radius: 5px;
   background: var(--text-color);
-
   border: 1px solid var(--text-color);
   width: 263px;
-
-  flex-shrink: 0;
 }
 
 .mark-title {
@@ -411,16 +409,31 @@ img {
   display: flex;
 }
 
+<<<<<<< Updated upstream
 .markcont-icons {
+=======
+.mark-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82px;
+  height: 82px;
+  background-color: var(--acent-color);
+  border-radius: 50%;
+>>>>>>> Stashed changes
   margin-bottom: 13px;
 }
 
 .mark-icons {
+<<<<<<< Updated upstream
   width: 82px;
   height: 82px;
   background-color: #ffeb38;
   border-radius: 50%;
   border: 3px solid #fff;
+=======
+  fill: none;
+>>>>>>> Stashed changes
 }
 
 /* Portfolio styles */
