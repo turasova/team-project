@@ -167,7 +167,7 @@
 
       <!-- Section4 Portfolio-->
       <section id="portfolio">
-        <div class="portfolio-container">
+        <div class="container portfolio-container">
           <div class="portfolio-blended-p-name">
             <p class="portfolio-subtitle">Our Portfolio</p>
             <h2 class="second-title portfolio"><span class="yellow">Projects</span> We Have Completed</h2>
@@ -264,7 +264,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer-info-container">
+      <div class="footer-info-container container">
         <div class="footer-company">
           <a class="header-logo" href="./index.html">
             <img class="logo-img" src="./images/logo.svg" alt="logo" width="50" height="53" />
@@ -273,7 +273,38 @@
           <p class="footer-desc">
             Lorem ipsum dolor sit amet consectetur. Scelerisque vitae et vitae suspendisse vulputate vestibulum tortor nisl cursus. Egestas nulla in
           </p>
-          <div class="footer-smm">icon SMM</div>
+          <div class="footer-smm">
+            <ul class="footer-smm-list list">
+              <li class="footer-smm-item">
+                <a href="#" class="footer-smm-link">
+                  <svg class="footer-smm-svg" width="9" height="15">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-smm-item">
+                <a href="#" class="footer-smm-link">
+                  <svg class="footer-smm-svg" width="15" height="15">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-smm-item">
+                <a href="#" class="footer-smm-link">
+                  <svg class="footer-smm-svg" width="17" height="15">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-smm-item">
+                <a href="#" class="footer-smm-link">
+                  <svg class="footer-smm-svg" width="15" height="15">
+                    <use href="./images/icons.svg#icon-linkedIn"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="footer-services">
           <p class="footer-services-subtitle">Services</p>
@@ -296,28 +327,30 @@
         <div class="footer-contact-info">
           <p class="footer-contact-subtitle">Contact Information</p>
           <ul class="footer-contact-list">
-            <li class="footer-contact-iten">canvaslancer@gmail.com</li>
-            <li class="footer-contact-iten">+00012345678</li>
-            <li class="footer-contact-iten">Lorem Ipsum Dummy text</li>
+            <li class="footer-contact-iten">
+              <a href="mailto:canvaslancer@gmail.com" class="footer-contact-link">canvaslancer@gmail.com</a>
+            </li>
+            <li class="footer-contact-iten">
+              <a href="tel:+00012345678" class="footer-contact-link">+00012345678</a>
+            </li>
+            <li class="footer-contact-iten"><a href="#" class="footer-contact-link">Lorem Ipsum Dummy text</a></li>
           </ul>
         </div>
       </div>
 
-      <div class="footer-copyright-container">
-        <div class="container">
-          <p class="footer-copyright-desc">Copyright ⓒ Design Agency, 2023. All rights reserved.</p>
-          <ul class="footer-policy-list">
-            <li class="footer-policy-item">
-              <a href="" class="footer-policy-link">Privacy Policy</a>
-            </li>
-            <li class="footer-policy-item">
-              <a href="" class="footer-policy-link">Cookies Policy</a>
-            </li>
-            <li class="footer-policy-item">
-              <a href="" class="footer-policy-link">Website Terms</a>
-            </li>
-          </ul>
-        </div>
+      <div class="footer-copyright-container container">
+        <p class="footer-copyright-desc">Copyright ⓒ Design Agency, 2023. All rights reserved.</p>
+        <ul class="footer-policy-list">
+          <li class="footer-policy-item">
+            <a href="" class="footer-policy-link">Privacy Policy</a>
+          </li>
+          <li class="footer-policy-item">
+            <a href="" class="footer-policy-link">Cookies Policy</a>
+          </li>
+          <li class="footer-policy-item">
+            <a href="" class="footer-policy-link">Website Terms</a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
