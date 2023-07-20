@@ -409,9 +409,6 @@ img {
   display: flex;
 }
 
-<<<<<<< Updated upstream
-.markcont-icons {
-=======
 .mark-circle {
   display: flex;
   justify-content: center;
@@ -420,20 +417,16 @@ img {
   height: 82px;
   background-color: var(--acent-color);
   border-radius: 50%;
->>>>>>> Stashed changes
   margin-bottom: 13px;
 }
 
 .mark-icons {
-<<<<<<< Updated upstream
   width: 82px;
   height: 82px;
   background-color: #ffeb38;
   border-radius: 50%;
   border: 3px solid #fff;
-=======
   fill: none;
->>>>>>> Stashed changes
 }
 
 /* Portfolio styles */
@@ -455,7 +448,23 @@ img {
 }
 
 .portfolio-subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 90px;
   margin-bottom: 24px;
+}
+
+.portfolio-subtitle::before,
+.portfolio-subtitle::after {
+  position: relative;
+  content: "";
+  display: block;
+  width: 163px;
+  height: 2px;
+  background: #D8D8D8;
 }
 
 .second-title.portfolio {
