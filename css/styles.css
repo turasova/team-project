@@ -267,6 +267,16 @@ img {
   line-height: 155%;
   letter-spacing: 0.48px;
   margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+
+}
+.subtitle-canvas::before {
+  width: 143px;
+  height: 2px;
+  background: #d8d8d8;
+  content: "";
+  margin-right: 12px;
 }
 
 .second-title.canvas {
