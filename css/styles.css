@@ -440,14 +440,20 @@ img {
   margin-bottom: 13px;
 } */
 
-.mark-icons {
+.mark-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 82px;
   height: 82px;
   background-color: #ffeb38;
   border-radius: 98.763px;
   border: 3px solid #fff;
-  margin-bottom: 13px;
-  padding: 14px 16px 19px 17px;
+
+  margin: 0px auto 13px;
+}
+
+.mark-icons {
 }
 
 /* Portfolio styles */
